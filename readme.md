@@ -18,7 +18,9 @@ Vérifier que le nom du fichier ne comporte pas de caractère pouvant représent
 
 
 ## Faille Upload
-Renommer le fichier et y apposer une extension attendu (.jpg par exemple)
+Permet à une personne malveillante de placer sur votre serveur un fichier qui pourrait s'executer (PHP, BASH...)
+Renommer le fichier et y apposer une extension attendu (.jpg par exemple) et une des solution principale.
+IL faut aussi vérifier que le nom du fichier original, si vous l'utilisez, ne contient pas de cractère éligibles à lecture par le système de fichier (Linux ou Windows).
 
 ## Faille Injection SQL
 Inclusion de commentaire ou d'égalité vrai ou autre manipulation de la requête générée à partir de paramètre dynamique
